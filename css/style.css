@@ -177,21 +177,25 @@
 }
 
 li {
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 100px;
-  border: 1px solid #333;
-  margin: 25px;
-  background-color: #333;
-  display: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  padding: 10px;
   float: left;
-  border-radius: 12%;
+  width: 200px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 8%;
 }
 
 li:hover {
+  transition-duration: 700ms;
+  box-shadow: 0px 10px rgba(255, 255, 255, 0.2);
+  border-radius: 8%;
+}
+h4 {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: azure;
-  transition: background 0.8s ease-out;
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+  display: block;
 }
